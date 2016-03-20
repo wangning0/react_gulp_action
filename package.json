@@ -1,0 +1,24 @@
+{
+  "name": "webpack_action",
+  "version": "1.0.0",
+  "description": "webpack_action",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Autumn_Ning",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.7",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.2",
+    "babel-loader": "^6.2.4"
+  }
+}
