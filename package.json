@@ -1,24 +1,43 @@
 {
   "name": "webpack_action",
   "version": "1.0.0",
-  "description": "webpack_action",
-  "main": "main.js",
+  "description": "gulp-webpack & react",
+  "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+    "start": "gulp default",
+    "dev": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangning0/webpack_action.git"
   },
   "keywords": [
-    "webpack"
+    "react",
+    "webpack",
+    "gulp"
   ],
   "author": "Autumn_Ning",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangning0/webpack_action/issues"
+  },
+  "homepage": "https://github.com/wangning0/webpack_action#readme",
   "dependencies": {
     "react": "^0.14.7",
-    "webpack": "^1.12.14",
-    "webpack-dev-server": "^1.14.1"
+    "react-dom": "^0.14.7"
   },
   "devDependencies": {
-    "babel-core": "^6.7.2",
-    "babel-loader": "^6.2.4"
+    "css-loader": "^0.23.1",
+    "del": "2.2.0",
+    "gulp": "3.9.1",
+    "gulp-ignore": "^2.0.1",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-shell": "^0.5.2",
+    "gulp-watch": "^4.3.5",
+    "gulp-webpack": "^1.5.0",
+    "jsx-loader": "^0.13.2",
+    "run-sequence": "1.1.5",
+    "style-loader": "^0.13.0",
+    "webpack-dev-server": "^1.14.1"
   }
 }
